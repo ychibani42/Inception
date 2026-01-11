@@ -19,9 +19,9 @@ The mandatory stack includes NGINX (TLS), WordPress with PHP-FPM, and MariaDB, a
 
 ## Stack architecture
 
-- **NGINX**: Reverse proxy handling HTTPS (TLS) termination and serving static files, forwarding PHP requests to WordPress/PHP-FPM.[6][1]
-- **WordPress + PHP-FPM**: Application container running WordPress with PHP-FPM, configured via environment variables for DB access and initial admin user.[6][3]
-- **MariaDB**: Database container initialized with a dedicated WordPress database, user, and password stored in secrets or env vars.[2][6]
+- **NGINX**: Reverse proxy handling HTTPS (TLS) termination and serving static files, forwarding PHP requests to WordPress/PHP-FPM.
+- **WordPress + PHP-FPM**: Application container running WordPress with PHP-FPM, configured via environment variables for DB access and initial admin user.
+- **MariaDB**: Database container initialized with a dedicated WordPress database, user, and password stored in secrets or env vars.
 
 ***
 
